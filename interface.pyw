@@ -133,7 +133,6 @@ class page_about():
 		self.page.config(bg='black')
 		self.text=Label(self.page,text='Mini jeu',font='size -28',fg='white',bg='black').pack()
 		self.text5=Label(self.page,text='Copyright © 2018-2020 SKU-Company\n Version 0.0.1, Build 666',font='size -12 ',cursor= 'gumby' ,justify ='center',bg="black",fg='white').pack(side='bottom')
-
 		self.page.geometry("250x100")
 		self.page.mainloop()
 
@@ -155,7 +154,6 @@ class page_changelog():
 		self.fichier= codecs.open("document/change.txt", encoding='utf-8')
 		return self.fichier.read()
 
-
 class page_selection_jeu():
 	def __init__(self,page):
 		self.page=page
@@ -169,10 +167,10 @@ class page_selection_jeu():
 	def page_pendu(self):
 		save('\n'+str(strftime('%d/%m/%Y %H:%M:%S'))+"\t--jeu du Pendu")
 		self.canvas= page_select_level(self.page)
+
 	def page_sudoku(self):
 		save('\n'+str(strftime('%d/%m/%Y %H:%M:%S'))+"\t--jeu du Sudoku")
 		self.canvas= page_init_sudoku(self.page)
-
 
 # -------------------------PENDU --------------------------------
 
@@ -375,7 +373,7 @@ class page_select_game():
 		try:
 			self.grille=self.liste_game[self.Li_Box.curselection()[0]].split(',')
 		except IndexError:
-			save('\n'+str(strftime('%d/%m/%Y %H:%M:%S'))+"\t--Index error ligne 331------")
+			save('\n'+str(strftime('%d/%m/%Y %H:%M:%S'))+"\t--Index error ligne 378------")
 		del self.grille[-1]
 		self.po=0
 		while self.po<len(self.grille):
@@ -403,7 +401,6 @@ class page_select_game():
 		self.liste_name=self.read_db_name()
 		self.liste_game=self.read_db_game()
 		self.aff_liste()
-
 		pass
 
 
@@ -415,8 +412,6 @@ class page_select_game():
 	def start_game(self):
 		page_grille(81,False,self.GRILLE)
 		
-
-
 
 class page_select_dif():
 	def __init__(self,page):
@@ -703,6 +698,5 @@ if __name__ == '__main__':
 			other()
 		sender(True)
 	except BaseException as e:
-		save('\n'+str(strftime('%d/%m/%Y %H:%M:%S'))+" erreur "+str(e))
-
-
+		save('\n'+str(strftime('%d/%m/%Y %H:%M:%S'))+" !!!!!!!!!!!!!!!!!!!--erreur--!!!!!!!!!!!!!!!!!!!"+str(e)) 
+		

@@ -1,0 +1,30 @@
+
+23/05/2020 19:55:40-------------------------INIT----------------------
+23/05/2020 19:55:40	-- username : Benjamin
+23/05/2020 19:55:40 demarage jeu
+23/05/2020 19:55:49	--jeu du Sudoku
+23/05/2020 19:55:50	--page selection dificiltée Sudoku
+23/05/2020 19:55:51	--retour page select dif ==> page init Sudoku
+23/05/2020 19:55:52	--retour page init Sudoku ==> page selection jeu
+20/07/2020 20:17:09 erreur (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials c194sm484269wme.8 - gsmtp')
+20/07/2020 20:17:09-------------------------INIT----------------------
+20/07/2020 20:17:09	-- username : Benjamin
+20/07/2020 20:17:09 demarage jeu
+20/07/2020 20:18:10	--jeu du Pendu
+20/07/2020 20:18:16	--New Game
+20/07/2020 20:18:16	--Dificulteé: 16
+20/07/2020 20:18:16	--Mot : PANORAMIQUASSIEZ
+20/07/2020 20:18:16	--taille mot : 16
+20/07/2020 20:18:17	 lettre : H
+20/07/2020 20:18:18	 lettre : E
+20/07/2020 20:18:18	 lettre : R
+20/07/2020 20:26:48	 lettre : T
+20/07/2020 20:27:07	--retour page select level Pendu ==> page selection jeu
+20/07/2020 20:27:13	ducumentation Sudoku
+20/07/2020 20:27:27	--Media
+20/07/2020 20:46:51 erreur (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials g195sm477238wme.38 - gsmtp')
+17/03/2021 18:46:09 erreur (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials 1sm3166966wmj.2 - gsmtp')
+17/03/2021 18:46:09-------------------------INIT----------------------
+17/03/2021 18:46:09	-- username : Benjamin
+17/03/2021 18:46:09 demarage jeu
+17/03/2021 18:47:54 !!!!!!!!!!!!!!!!!!!--erreur--!!!!!!!!!!!!!!!!!!!(535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials m132sm2921080wmf.45 - gsmtp')
